@@ -24,7 +24,7 @@ const downloadPage = (url = 'http://nodeprogram.com') => {
     fetchPage(url, (error, data) => {
         if(error)
             console.log(error)
-        fs.writeFileSync(path.join(__dirname, folderName, 'url.txt'), url+'\nfire')
+        fs.writeFileSync(path.join(__dirname, folderName, 'url.txt'), url+'\n')
         fs.writeFileSync(path.join(__dirname, folderName, 'index.html'), data+'\n')
         console.log('downloading complete in folder ', folderName)
     })
