@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META DATA -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="description" content="San Francisco, Los Angeles, and New York City courses on React.js, Node.js, MongoDB, Express.js and JavaScript">
+  <title>React.js, Node.js, MongoDB, Express.js and JavaScript Courses</title>
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="assets/images/ico/favicon.ico">
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="assets/style/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="assets/style/main.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css">
+
+  <!-- GOOGLE WEB FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800'
+    rel='stylesheet' type='text/css'>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)    
+}(window,
+      document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '265725346966984');
+    fbq('track', "NodeProgramPageView");
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=265725346966984&ev=PageView&noscript=1"
+    /></noscript>
+
+
+  <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <nav class="fixed-top" id="navigation">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span12 center">
+          <!-- LOGO -->
+          <a class="brand pull-left" href="./">
+                        <img src="assets/images/logo.png" alt="Treble">
+                    </a>
+          <!-- END LOGO -->
+
+          <!-- MOBILE MENU BUTTON -->
+          <div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <!-- END MOBILE MENU BUTTON -->
+
+          <!-- MAIN MENU -->
+          <ul id="main-menu" class="nav-collapse collapse">
+            <li><a href="#page-welcome">Home</a></li>
+            <li><a href="#page-program">Program</a></li>
+            <li><a href="#page-curriculum">Curriculum</a></li>
+            <li><a href="#page-about">About</a></li>
+            <li><a href="#page-register">Register</a></li>
+            <li><a href="#page-faq">F.A.Q.</a></li>
+            <li><a href="#page-contact">Contact</a></li>
+          </ul>
+          <!-- END MAIN MENU -->
+
+          <!-- SOCIAL ICONS -->
+          <div class="social-icons hover-big pull-right">
+            <a href="https://www.facebook.com/nodeprogram" class="sicon-facebook"><i>Facebook</i></a>
+            <a href="https://twitter.com/nodeprogram" class="sicon-twitter"><i>Twitter</i></a>
+          </div>
+          <!-- END SOCIAL ICONS -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <!-- PAGE | WELCOME -->
+  <div class="pages white paralax page-welcome" id="page-welcome">
+    <div class="overlay"></div>
+    <!-- Centralized content -->
+    <div class="centralized">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span12 center">
+            <!-- Animated logo -->
+            <!-- <div class="logo">
+                            <div class="scrollNormal">
+                                <a href="#page-teaser">
+                                    <img src="assets/images/np-logo200.png" width="100" height="100" alt="Treble">
+                                </a>
+                            </div>
+                            <div class="scrollDown">
+                                <a href="#page-teaser">
+                                    <img src="assets/images/pages/welcome/logo2_welcome.png" width="100" height="100" alt="Treble">
+                                </a>
+                            </div>
+                        </div> -->
+
+            <div class="line-divider" id="welcome-messages">
+              <ul class="slides">
+                <li>
+                  <h1>The Best Node.js Training<br/><br/></h1>
+                </li>
+                <li>
+                  <h1>The Ultimate Full Stack Education</h1>
+                </li>
+                <li>
+                  <h1>Course and workshops on Node.js, Express.js and React.js</h1>
+                </li>
+              </ul>
+            </div>
+            <p>From the Author of Top-Selling Node and React Books</p>
+            <div>
+              <p><a style="text-decoration:none" class="btn btn-danger" href="#page-register">Learn More About the Next Workshop</a></p>
+              <br/><br/>
+            </div>
+            <div>
+              <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/D4nwUcuar3I?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="social-icons sicon-white bordered">
+              <a href="https://www.facebook.com/nodeprogram" class="sicon-facebook"><i>Facebook</i></a>
+              <a href="https://twitter.com/nodeprogram" class="sicon-twitter"><i>Twitter</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END PAGE | Welcome -->
+  <!-- PAGE | SIGNUP -->
+  <div class="pages page-teaser" id="page-teaser">
+    <div class="container">
+      <!-- Header -->
+      <header class="text-left">
+        <p class="text-left">
+          Interested in Node.js, but don't know where to start?<br/></p>
+        <p class="text-left">Do you find yourself wondering how you’d ever find the
+          time to learn it properly?</p>
+        <p class="text-left"> Do you get <i>frustrated</i> learning from books and wish online videos were more
+          interactive???</p>
+        <p class="text-left"> Are you confused about how the MERN stack pieces (MongoDB, Express.js, React.js and Node.js)
+          fit together?</p>
+        <p class="text-left"> Do you wonder how it's even possible to run JavaScript outside of the browser?</p>
+        <p class="text-left"> Do any of
+          these questions apply to you?</p>
+        <p class="text-left">If so then you’ve landed on the right page, but if you need more convincing, find out <a href="https://www.youtube.com/watch?v=D4nwUcuar3I" target="_blank">5 Reasons to Learn Full Stack JavaScript</a>.
+        </p>
+        <p class="text-left">        
+          Years ago, we were in the same boat, had a lot of the same questions. We were in the same boat but we took the long route of learning from source code, books, blogs, and free online documentation. 
+        </p>
+        <p class="text-left">        
+          We are here to save you from that same fate. To do that we have put together the best information in <b>the simplest way to help you learn about these systems</b>.
+        </p>
+        <p class="text-left"> We are giving you the take a shortcut so that you canand save time, frustration and <b>avoid costly mistakes</b> by using the best practices available. <br/> Join one of the Node Program events!          
+        </p>
+        <!-- <h3>Need to train your team? <br/>Contact us for <a href="#page-contact">corporate Node.js training</a></h3-->
+        <h1>Start learing Node <a href="#page-register">now</a></h1>
+        <!-- <div id="clock-label">Time left until the workshops start (hurry up to get early pricing!):</div> -->
+        <!-- <div id="clock"></div> -->
+        <!-- <h3>Recorded online course is <a href="https://gum.co/nodeprogram/" target="_blank">available now</a>. </h3> -->
+        See what <a href="#page-register">workshops are available</a> or explore <a href="https://node.university" target="_blank">recorded online courses</a>
+        <!-- Jump to <a href="https://gum.co/nodeprogram/" target="_blank">the recorded course</a></h3> -->
+      </header>
+    </div>
+  </div>
+  <div class="pages page-signup" id="page-signup">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">Interested in on-site training for your team?</h4>
+        <h3>Corporate Node.js Training</h3>
+        <div class="row">
+          Need to get your team in shape? We do corporate training too!!!</a><br/> Send us a note via <a href="#page-contact" target="_blank" style="color:#4e808e">the form below and we’ll provide further details.</a>.
+        </div>
+
+      </header>
+      <!-- End Header -->
+
+    </div>
+  </div>
+  <!-- PAGE | SIGNUP -->
+  <div class="pages page-signup" id="page-signup">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">Sign up for news and early alerts</h4>
+        <h3>FREE 7-day NodeProgram.com Online Video Course</h3>
+        <div class="row">
+          <div class="span12">
+            <div class="input-append">
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="//rpjs.us7.list-manage.com/subscribe/post?u=36e6fbd670f90424e85a36feb&amp;id=2a2039eb33" method="post" id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="mc-field-group">
+                    <input type="email" value="" placeholder="Email Address" name="EMAIL" class="span5 required email" id="appendedInputButton">
+                    <input
+                      type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary sicon-search sicon-white">
+                  </div>
+
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_36e6fbd670f90424e85a36feb_2a2039eb33" tabindex="-1" value=""></div>
+                  <div class="clear"></div>
+                </form>
+              </div>
+
+              <!--End mc_embed_signup-->
+            </div>
+          </div>
+        </div>
+
+      </header>
+      <!-- End Header -->
+
+    </div>
+  </div>
+  <!-- END PAGE | SIGNUP -->
+
+  <!-- PAGE | PROGRAM -->
+  <div class="pages page-program" id="page-program">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">NodeProgram.com Description</h4>
+        <h1>Program</h1>
+        <!-- Short desciption about Work in general -->
+
+        <div class="">
+          <p class="text-left">
+            NodeProgram.com is <b>the fastest and the most engaging way</b> to get started with Node.js, MongoDB, Express.js, and React.js (M.E.R.N stack). 
+            It’s taught online through a series of webinars and also as an intensive, weekend-long in-person course. 
+            Node Program is taught by skilled experts who have years of experience running Node.js in production. 
+            NodeProgram.com is the most effective way to learn the foundational skills required to use Node.js!
+          </p>
+          <p>&nbsp;<img src="assets/images/mern.png" alt="" width="600" height="400" /></p>
+          <h2>NodeProgram.com Highlights</h2>
+          <ul style="margin-top: 0in; " class="text-left">
+            <li><strong>Engaging</strong>: Live experience learning from instructors, mentors and peers.&nbsp;</li>
+            <li><strong>Customized</strong>: Uniquely tailored to your needs; treat us as your consultants and coaches!</li>
+            <li><strong>Convenient</strong>: One weekend (16h), no need to take PTO or travel far away.</li>
+            <li><strong>Tested:&nbsp;</strong>&nbsp;Instructors have years of practical experience with Node.js. Course materials
+              have been carefully developed and tested for success.</li>
+            <li><strong>Practical: </strong>Students will leave the workshops with multiple Node.js apps (projects).</li>
+          </ul>
+          <h2>Full Stack JavaScript is Power</h2>
+          <p class="text-left">If you have anything to do with technology today, then you are probably familiar with&nbsp;Node.js&mdash;the
+            JavaScript on the server&mdash; and how its non-blocking platform is faster, more scalable and approachable
+            than the incumbents (e.g., <a href="http://webapplog.com/php-vs-node-js/">Node.js vs PHP</a>). The Node.js open-source
+            ecosystem is growing every day (<a href="http://modulecounts.com/">modulecounts.com</a>). At the same time
+            not just startups but also industry giants like PayPal, Groupon, Twitter, WalMart, eBay, and DocuSign are adopting
+            and switching their stacks to Node.js from Java, Ruby, .NET and others (<a href="https://blog.appfog.com/node-js-is-taking-over-the-enterprise-whether-you-like-it-or-not/">Node.js is taking over the Enterprise</a>).</p>
+          <p><img src="assets/images/modulescount.png" alt="" width="600" />&nbsp;</p>
+
+          <p class="text-left">This growing Node.js popularity is happening for a few reasons:</p>
+          <ul class="text-left">
+            <li>JavaScript is a dynamic and expressive language which amassed tons of libraries and literature, resulting in many skilled developers. In addition, virtually any web developer has to touch some parts of JavaScript,
+              so understanding Node.js is becoming a necessity.</li>
+            <li>The low-level approach and granular modularity of NPM is attractive for beginners.</li>
+            <li>The full-stack niche is appealing because most of the development happens on the front-end and, with Node.js,
+              the same skills, methods, and classes can be re-used by developers without the need to learn a new platform/language.</li>
+          </ul>
+          <p>&nbsp;</p>
+          <p><strong><img src="assets/images/sf2.jpg" alt="" width="600" height="450" /></strong></p>
+          <p class="text-left">The benefits of having a Node.js experience are many:</p>
+          <ul class="text-left">
+            <li>For front-end developers, the ability to work on the back-end and understand front-end tools is far better (e.g..
+              Webpack/Grunt).</li>
+            <li>For back-end developers, building servers or other tools and applications from the ground-up is easier.</li>
+            <li>For start-uppers, gaining a competitive edge is possible by consuming fewer resources and making your apps
+              and back-ends faster.</li>
+            <li>For an employee, there is an increased ability to be move to more interesting and higher potential projects
+              that use Node.js. Or to find a dream job with a company that uses Node.js <b>Node.js tends to attract top talent</b>.</li>
+            <li>For experts, because other platforms
+              are more mature and saturated then Node stack, there is a greater ability to create a name for yourself by writing frameworks and libraries,
+              contributing to the open source community, writing books, speaking, and teaching Node.js.</li>
+          </ul>
+          <p><img src="assets/images/sf.jpeg" alt="" width="600" />&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2>Take the Shortcut</h2>
+          <p class="text-left">When I first started using Node.js, I wanted to find the fastest path for getting up to speed. Right away, I realized it was going to take some work. When I started there were no shortcuts. I spent weeks reading books and hacking on side projects, then spent years using Node.js in production, first at Storify and now at DocuSign. Luckily, the work is now done and I am able to share everything I learned with you. I’ve taken all of the information that you need to get started and developed a streamlined training program that will get you up and running in a single weekend or in a few hours in a series of webinars!</p>
+          <p><strong><img src="assets/images/rpjs.jpg" alt="" width="600" height="450" /></strong></p>
+          <p class="text-left">We’re all busy professionals who strive for more at our jobs and businesses. Having Node.js in your toolbox can make you eligible to participate in an interesting new project or even get you that promotion that you’ve been hoping for. Not only is it perfect when you work for a company already using Node.js, but, if you’re running your own startup or building your own software product, you’ll have a REAL competitive advantage. You’ll find it easier to hire talented developers because Node.js is the type of tool that many developers look forward to using.</p>
+        </div>
+
+
+      </header>
+    </div>
+  </div>
+  <!-- END PAGE | PROGRAM -->
+
+
+  <!-- PAGE | CLIENTS -->
+  <div class="pages page-partners" id="page-partners">
+    <div class="container">
+      <h4 class="line-divider-inline center">NodeProgram.com Partners</h4>
+      <!-- Client logos -->
+      <div class="row-fluid">
+        <div class="center">
+          <a href="https://node.university">
+            <img title="The Ultimate Node.js Resource: Courses on Node.js, JavaScript and React" width="320" src="assets/images/node-u-source-inverted-no-bk.png" alt="The Ultimate Node.js Resource: Courses on Node.js, JavaScript and React"/>
+          </a>
+        </div>        
+        <div class="center">
+          <a href="http://hackreactor.com">
+            <img title="" width="220" src="assets/images/hack-reactor-logo.png" alt="Learn to program software and applications in 12 weeks"/>
+          </a>
+        </div>
+        <div class="center">
+          <a href="http://makersquare.com"><img title="" src="assets/images/makersquare.png" alt="" width="205" /></a>
+        </div>
+      </div>
+      <!-- Short text related to client's -->
+      <!-- <div class="row-fluid">
+                <div class="span8 offset2 center smallFontBy08">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div> -->
+    </div>
+  </div>
+  <!-- END PAGE | CLIENTS -->
+
+
+  <!-- PAGE | STUDENTS  -->
+  <div class="pages paralax page-students" id="page-students">
+    <div class="overlay"></div>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider-inline center">Testimonials</h4>
+        <!-- <h4 class="line-divider">Testimonials</h4> -->
+        <!-- <h1>Students</h1> -->
+
+        <!-- Testemonials -->
+        <div class="row-fluid">
+          <div class="">
+            <div class="quote center">
+              <div id="quote-slider" class="slide">
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                  <div class="item">
+                    NodeProgram.com helped me bridge the gaps in my Node.js knowledge and made me more confident in my ability to contribute
+                    production-ready code.
+                    <h5><img src="assets/images/erin.jpg" width="50" /> Erin McKean</h5>
+
+                  </div>
+                  <div class="active item">
+                    “Thanks for putting this workshop together this weekend... what we did with was really quick & awesome.”
+                    <h5><img src="assets/images/mariya.jpg" width="50" /> Mariya Yao</h5>
+
+                  </div>
+                  <div class="active item">
+                    Azat’s tutorials are crucial to the development of Sidepon.com interactive UX and the success of getting us featured on TheNextWeb.com
+                    and reached profitability.
+                    <h5><img src="assets/images/kenson.jpg" width="50" /> Kenson Goo</h5>
+                  </div>
+                  <div class="active item">
+                    Thank you again for a great weekend, my brain has been fired up, time to "gitGoing" with MERN.<br/> I
+                    would like to sign up to Node University, but need at least a week to absorb the material from this weekend
+                    😊
+                    <h5> Peter</h5>
+                  </div>
+                  <div class="active item">
+                    Nice course. It was relay helpful to understand basic of NodeJs and with hands on. Thanks Azat:)
+                    <h5> Nikhil Shinde</h5>
+                  </div>
+                  <div class="active item">
+                    Azat is a great professional in Javascript / Node.JS development, as well as an excellent tech mentor. <br/>                    His projects, as NodeProgram (http://nodeprogram.com) and Node University (http://node.university), has
+                    a very detailed content related to React, Node, and JavaScript.
+                    <h5><img src="assets/images/bushnev.jpg" width="50" /> Alexey Bushnev</h5>
+                  </div>
+                  <div class="active item">
+                    Azat infused his workshop with an impressive breadth and depth of expertise on topics ranging from the myriad reasons why
+                    Node.js is taking over enterprise to the intricacies of the React lifecycle, while always making sure
+                    to communicate both verbally and visually in an accessible way for all of the attendees, making the 2-day
+                    event not only incredibly useful, but really fun too:)
+                    <h5><img src="assets/images/claire.jpg" width="50" /> Claire Hsu</h5>
+                  </div>
+                  <!-- <div class="item">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        <h5>Happy client</h5>
+                                    </div> -->
+                </div>
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-slider" data-slide-to="0" class="active"></li>
+                  <li data-target="#quote-slider" data-slide-to="1"></li>
+                  <!-- <li data-target="#quote-slider" data-slide-to="2"></li> -->
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+
+      <!-- End Article -->
+    </div>
+  </div>
+  <!-- END PAGE | STUDENTS -->
+
+  <!-- PAGE | SF -->
+  <div class="pages white paralax page-sf" id="page-sf">
+    <!-- Page overlay -->
+    <div class="overlay"></div>
+
+    <!-- Block content -->
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span8 offset2">
+          <!-- <div class="twitter-devider"></div> -->
+          <!-- Load Twitter boostrap container -->
+          <div class="twitterfeed center slide" id="twitterfeed-slider"></div>
+
+          <!-- Sub title / Name of twitter account -->
+          <h5 class="center">Live training in Node.js and React</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END PAGE | SF -->
+
+
+  <!-- PAGE | FEATURES  -->
+  <div class="pages paralax page-curriculum" id="page-curriculum">
+    <div class="overlay"></div>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">NodeProgram.com Curriculum</h4>
+        <h1>NodeProgram.com Curriculum</h1>
+        <p>Here's just a preview of some of the NodeProgram.com topics. For mored details, see <a href="#page-register">the individual events pages</a></p>
+        <div class="row">
+          <div class="curriculum">
+            <h2>Node.js</h2>
+            <ul class="text-left">
+              <li>Intro to Node.js
+                <ul class="text-left">
+                  <li>History of Node.js</li>
+                  <li>Non-Blocking I/O</li>
+                  <li>Node.js Benefits</li>
+                  <li>Node.js Place in the Tech Stack</li>
+                  <li>Evolution of Node.js Frameworks</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="text-left">
+              <li>Node.js Basics
+                <ul class="text-left">
+                  <li>Node.js Global</li>
+                  <li>Node.js Process</li>
+                  <li>Modules and Require in Node.js</li>
+                  <li>Core Node.js Modules</li>
+                  <li>Node.js Module Patterns</li>
+                  <li>Node.js Command-Lne Interface Arguments</li>
+                  <li>Running Node.js Scripts</li>
+                  <li>Node.js Shell (REPL)</li>
+                  <li>Node.js File System Module</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="text-left">
+              <li>Node.js—It's All About JavaScript
+                <ul class="text-left">
+                  <li>Building &ldquo;Hello World&rdquo; in Node.js</li>
+                  <li>Node.js Core Modules</li>
+                  <li>Node Package Manager</li>
+                  <li>Deploying &ldquo;Hello World&rdquo; to PaaS</li>
+                  <li>Deploying to Heroku</li>
+                  <li>Message Board REST API: Run-Time Memory Version</li>
+                  <li>Test Case for Message Board</li>
+                </ul>
+              </li>
+            </ul>
+            <h2>Express.js</h2>
+            <ul class="text-left">
+              <li>Express.js—The Most Popular Node.js Framework</li>
+              <ul class="text-left">
+                <li>Installation</li>
+                <li>Express.js 4 Generator</li>
+                <li>Configuration</li>
+                <li>Routers</li>
+                <li>Main Middleware</li>
+                <li>Jade Template Engine</li>
+                <li>Stylus CSS library</li>
+                <li>RESTful API</li>
+              </ul>
+            </ul>
+            <ul class="text-left">
+              <li>Express.js API</li>
+              <ul class="text-left">
+                <li>GET, POST, PUT and DELETE</li>
+                <li>Request</li>
+                <li>Response</li>
+                <li>Error Handlers</li>
+                <li>Scaling</li>
+              </ul>
+            </ul>
+            <h2>MongoDB</h2>
+            <ul class="text-left">
+              <li>MongoDB and NoSQL
+                <ul class="text-left">
+                  <li>NoSQL and CAP Theorem</li>
+                  <li>MongoDB Database</li>
+                  <li>MongoDB shell (mongo)</li>
+                  <li>MongoDB Native Driver (mongodb)</li>
+                  <li>MongoDB on Heroku: MongoHQ</li>
+                  <li>MongoDB BSON data types</li>
+                  <li>Message Board REST API: MongoDB Version</li>
+                </ul>
+              </li>
+            </ul>
+            <h2>React.js</h2>
+            <ul class="text-left">
+              <li>React and JSX Basics</li>
+              <ul class="text-left">
+                <li>What is React?</li>
+                <li>React.js Benefits</li>
+                <li>Downloading React.js</li>
+                <li>Hello World, React.js</li>
+                <li>React.createElement Method</li>
+                <li>ReactDOM.render Methods</li>
+                <li>JSX and React</li>
+                <li>Babel Transformer for JSX</li>
+                <li>React's Standard Components</li>
+                <li>React's Composable Components</li>
+                <li>Nesting React's Components</li>
+                <li>Properties in React's Components</li>
+                <li>Outputting Variables in JSX and React</li>
+              </ul>
+            </ul>
+            <ul class="text-left">
+              <li>React.js Features</li>
+              <ul class="text-left">
+                <li>React States</li>
+                <li>Setting Initial State in React.js</li>
+                <li>Updating States</li>
+                <li>Outputting React.js States</li>
+                <li>React.js Props vs. States</li>
+                <li>Creaing and Calling React Component Methods</li>
+                <li>React Component Events</li>
+                <li>React Patterns for Using Props</li>
+                <li>React Component Lifecycle Events</li>
+              </ul>
+            </ul>
+            <ul class="text-left">
+              <li>Advanced React.js</li>
+              <ul class="text-left">
+                <li>Testing with Jest</li>
+                <li>Reflux—Data Flow for React.js</li>
+                <li>React.js Router Demo</li>
+                <li>React Native Demo</li>
+                <li>Isomorphic React.js with Express.js</li>
+              </ul>
+            </ul>
+
+            <h2>NodeProgram.com Office Hours</h2>
+            <p class="text-left">NodeProgram.com is a customized learning experience. We want you to tell us what questions you’d like answered. We will address them one-on-one during the office hours segment.</p>
+            <p><img src="assets/images/rpjs2.jpg" alt="" width="600" height="450" /></p>
+            <h2>Required Software &amp; Materials</h2>
+            <p class="text-left">To maximize the benefits from NodeProgram.com, we advise that you prepare the following items in advance (see <a href="#page-register">the event pages</a> for more details):</p>
+            <ul class="text-left">
+              <li>Laptop (MacBook/Linux recommended)</li>
+              <li>Git installed and GitHub account</li>
+              <li>Heroku account (optional)</li>
+              <li>Code editor</li>
+              <li>The latest stable Node.js installed with npm</li>
+              <li>MongoDB installed&nbsp;</li>
+              <li>CURL, Postman or a similar tool for making HTTP requests</li>
+            </ul>
+            <br />
+            <h2>Prerequisites</h2>
+
+            <p class="text-left">The class is aimed at an intermediate to advanced JavaScript front-end developers and/or back-end engineers fluent
+              in non-JS programming language(s). Recommended reading/exercises:&nbsp;</p>
+            <ul style="margin-top: 0in;" class="text-left">
+              <li>Understanding of basics of&nbsp;<a href="http://try.github.io/levels/1/challenges/1">Git</a> and more <a href="http://sixrevisions.com/resources/git-tutorials-beginners/">Git</a>                (we'll use Git during the class, but the concept and the bulk of this tool won't be covered during the class)</li>
+              <li>Understanding of&nbsp;<a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> and <a href="http://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a>                (the concepts itself won't be covered during the class)</li>
+              <li>Understanding of&nbsp;<a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST API</a> (the
+                concept itself won't be covered during the class)</li>
+              <li>Watching the Ryan Dahl's <a href="http://www.youtube.com/watch?v=jo_B4LTHi3I">video</a></li>
+            </ul>
+            <p><img src="assets/images/enm.jpg" alt="" width="600" /></p>
+            <br/>
+            <h2>Innovative Approach to Teaching</h2>
+            <p class="text-left">The years spent teaching JavaScript and Node.js at HackReactor, General Assembly, pariSOMA, Marakana and The
+              New Circle have taught me that the best learning experience requires five basic components:</p>
+            <ul style="margin-top: 0in;" class="text-left">
+              <li>Lectures, mentors, books</li>
+              <li>Hands-on projects, self-study</li>
+              <li>Paired programming, peers and discussions</li>
+              <li>Time to digest and process, allowing the knowledge to sink in</li>
+              <li><a href="http://j2jenkins.com/2013/04/29/interleaved-practice-a-secret-enhanced-learning-technique/" target="_blank">Interleaved Learning</a></li>
+            </ul>
+            <p>&nbsp;</p>
+            <p class="text-left">At NodeProgram.com we take this approach seriously, and provide you with the first three parts: mentorship, time
+              for personal projects, paired programming and discussions. Then, students have a week to digest the information
+              and come back for a follow-up session where we'll do office hours to answer questions, review code and look
+              at your projects' demos. We'll be there for you to answer your questions and help you process the information after the event.
+              The office hours will be conducted one week after the training to answer any follow up questions.</p>
+            <p class="text-left">Another difference compared to other educational formats is that NodeProgram.com is a customized learning experience.
+              Basically treat us as your consultants. During the registration, you can ask us up to five questions before
+              the course even starts! And during the course, you can work on your project and use our instructors as coaches.
+              We also provide guidance to the applicants whose level is not advanced enough to get the full benefit of the
+              program.</p>
+          </div>
+        </div>
+
+        <!-- Sub menu -->
+        <!--
+                Params:
+                    plugin-filter: Defines links for filtering.
+                -->
+
+    </div>
+  </div>
+  <!-- END PAGE | WORK -->
+
+
+
+  <!-- PAGE | ABOUT -->
+  <div class="pages page-about" id="page-about">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">Meet The Team</h4>
+        <h1>About</h1>
+        <div class="row">
+          <div class="span8 offset2">
+            <p>
+
+            </p>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Article -->
+      <article>
+        <!-- List of people and description with their contact details which are visable on hover -->
+        <ul class="thumbnails about-items">
+          <li class="span4 center">
+            <div class="item">
+              <img class="img-circle" src="assets/images/UNKNOWN-600x600.png" alt="">
+              <!--                             <div class="about-overlay img-circle">
+                                <div class="social-icons sicon-white">
+                                    <a href="https://www.facebook.com/profile.php?id=1640484994" class="sicon-facebook"><i>Facebook</i></a>
+                                    <a href="http://twitter.com/azat_co" class="sicon-twitter"><i>Twitter</i></a>
+                                    <a href="http://linkedin.com/in/azatm" class="sicon-linkedin"><i>LinkedIn</i></a>
+                                    <a href="https://plus.google.com/116816240985852388027/about" class="sicon-google-plus"><i>Google Plus</i></a>
+                                    <a href="http://www.pinterest.com/azatco/" class="sicon-pinterest"><i>Pinterest</i></a>
+                                </div>
+                            </div> -->
+            </div>
+
+            <h5>
+              TBD<br/>
+              <small>Guest speaker</small>
+            </h5>
+            <p class="smallFontBy08">Send us names of your favorite tech speakers or propose yourself</p>
+          </li>          
+          <li class="span4 center">
+            <div class="item">
+              <!-- Team member image -->
+              <img class="img-circle" src="assets/images/azat.jpeg" alt="Treble">
+
+              <!-- Team memeber details, activated on hover -->
+              <div class="about-overlay img-circle">
+                <div class="social-icons sicon-white">
+                  <a href="https://www.facebook.com/nodeprogram" class="sicon-facebook"><i>Facebook</i></a>
+                  <a href="https://twitter.com/nodeprogram" class="sicon-twitter"><i>Twitter</i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Team member name and function -->
+            <h5>
+              Azat Mardan<br/>
+              <small>Instructor</small>
+            </h5>
+
+            <!-- Team member short info -->
+            <p class="smallFontBy08">Published 14 books, Technology Fellow at Capital One, and paleo yogi. Among other places: 500Startups, Storify,
+              HackReactor, GA, NIH, FDICgov, and LockheedMartin</p>
+          </li>
+
+          <li class="span4 center">
+            <div class="item">
+              <img class="img-circle" src="assets/images/avatar_male013.png" alt="">
+              <!--                             <div class="about-overlay img-circle">
+                                <div class="social-icons sicon-white">
+                                    <a href="https://www.facebook.com/profile.php?id=1640484994" class="sicon-facebook"><i>Facebook</i></a>
+                                    <a href="http://twitter.com/azat_co" class="sicon-twitter"><i>Twitter</i></a>
+                                    <a href="http://linkedin.com/in/azatm" class="sicon-linkedin"><i>LinkedIn</i></a>
+                                    <a href="https://plus.google.com/116816240985852388027/about" class="sicon-google-plus"><i>Google Plus</i></a>
+                                    <a href="http://www.pinterest.com/azatco/" class="sicon-pinterest"><i>Pinterest</i></a>
+                                </div>
+                            </div> -->
+            </div>
+
+            <h5>
+              TBD<br/>
+              <small>Guest speaker</small>
+            </h5>
+            <p class="smallFontBy08">Send us names of your favorite tech speakers or propose yourself</p>
+          </li> 
+        </ul>
+      </article>
+      <!-- End Article -->
+    </div>
+  </div>
+  <!-- END PAGE | ABOUT -->
+
+  <!-- PAGE | TWITTER -->
+  <div class="pages white paralax page-action" id="page-action">
+    <!-- Page overlay -->
+    <div class="overlay"></div>
+
+    <!-- Block content -->
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span8 offset2">
+          <!-- <div class="twitter-devider"></div> -->
+          <!-- Load Twitter boostrap container -->
+          <div class="twitterfeed center slide" id="twitterfeed-slider"></div>
+
+          <!-- Sub title / Name of twitter account -->
+          <h5 class="center">Take action!</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END PAGE | TWITTER -->
+
+
+  <!-- PAGE | BLOG -->
+  <div class="pages page-register" id="page-register">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">List of Current Workshops</h4>
+        <h1>Register</h1>
+        <div class="row">
+          <div class="span12">
+            <div class="course-container">
+              <!--<h1>List of Current Workshops</h1>-->
+              <div class="row course-row">
+                <a href="https://node.university/p/node-npm-and-mongodb-foundation"
+                  target="_blank" style="color:#4e808e" title="Node and npm Foundation course">
+                <img src="assets/images/courses/01.png" width="250" alt="Node and npm Foundation course" />
+                <br/>
+                Node and npm Foundation course
+                </a>
+              </div>
+              <div class="row course-row">
+                <a href="https://node.university/p/node-in-production"
+                  target="_blank" style="color:#4e808e" title="Node in Production with AWS and Docker courser">
+                <img src="assets/images/courses/node-production-03.png" width="250" alt="Node in Production with AWS and Docker courser" />
+                <br/>
+                Node in Production with AWS and Docker course
+                </a>
+              </div>
+              <div class="row course-row">
+                <a href="https://node.university/p/express-foundation"
+                  target="_blank" style="color:#4e808e" title="Express Foundation and REST APIs with MongoDB course">
+                <img src="assets/images/courses/express-foundation.png" width="250" alt="Express Foundation and REST APIs with MongoDB course" />
+                <br/>
+                Express Foundation and REST APIs with MongoDB course
+                </a>
+              </div>
+              <div class="row course-row">
+                <a href="https://node.university/p/react-foundation"
+                  target="_blank" style="color:#4e808e" title="React Foundation with Webpack and Babel course">
+                <img src="assets/images/courses/react.png" width="250" alt="React Foundation with Webpack and Babel course" />
+                <br/>
+                React Foundation with Webpack and Babel course
+                </a>
+              </div>
+            </div>
+            Cannot attend live? <br/>Some Node courses are avaliable <a href="http://node.university">online on-demand at Node University</a>.<br/><br/>
+            <div class="row">
+              Interested in a live training at your company office? <br/>We do <b>corporate on-site training</b> too</a>! Send us
+              a message via <a href="#page-contact" target="_blank" style="color:#4e808e">the form</a>.
+            </div>
+
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+    </div>
+  </div>
+  <!-- END PAGE | BLOG -->
+
+  <!-- PAGE | FAQ -->
+  <div class="pages page-faq" id="page-faq">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">Questions and answers</h4>
+        <h1>F.A.Q.</h1>
+
+        <div class=" text-left">
+            <p>&nbsp;</p>
+            <p>Q: What time does the course start and end?</p>
+            <p>A: Typically we run the course from 9am to 5pm. Feel free to email us for more details.</p>
+            <p>&nbsp;</p>
+            <p>Q: When is the lunch break? Should I bring my own lunch?</p>
+            <p>A: The lunch break is roughly from 12 to 1pm. Yes, please bring your own lunch or searcch for places near the
+              event. We recommend using Yelp or Google Maps to find something fast and healthy (we don't want you to have
+              a food coma!).</p>
+            <p>&nbsp;</p>
+            <p>Q: What do I pay for?</p>
+            <p>A: You pay for the experience of accelerated and focused learning and the environment of collaboration and peer-to-peer
+              learning. In addition, you'll get a chance to ask our instructors one-on-one questions.</p>
+            <p>&nbsp;</p>
+            <p>Q: Can I get the same material for free online?</p>
+            <p>A: Yes. You can find most of the materials <a href="http://webapplog.com" target="_blank">online for free</a>              or for cheap (a book is $20-40), but realistically it will take you weeks or months to cover the material,
+              beause of life commitments and other distractions. In fact, most people who start learning will never get anywhere
+              by reading books, taking online courses and free blog posts.</p>
+            <p>&nbsp;</p>
+            <p>Q: Do you offer refunds?</p>
+            <p>A: Yes! If you're not 100% satisfied, we will refund you 100% as long as you tell us within the first 4 hours
+              of the course. (That's enough to get the taste and will allow you to spend the rest of the weekend doing something
+              else.)</p>
+            <p>&nbsp;</p>
+            <p>Q: Where can I register?</p>
+            <p>A: You can register on this <a href="#page-register">website</a> when the next course is scheduled.</p>
+            <p>&nbsp;</p>
+            <p>Q: Can I buy for a company or multiple people (seats)?</p>
+            <p>A: Yes. Contact us directly for corporate training and multiple seats.</p>
+            <p>&nbsp;</p>
+            <p>Q: Will there be a follow-up after the course?</p>
+            <p>A: We'll do a follow-up session, i.e., office hours session, one week from the training. At this two-hour meeting
+              you can demo your projects, ask additional questions or just talk about the future of Node.js.</p>
+            <p>&nbsp;</p>
+            <p>Q: Are there any handouts/materials for the course? Should we buy books and pay extra?</p>
+            <p>A: The e-handouts are included in the registration price. They'll be in digital format, because it's more mobile
+              and less wasteful.</p>
+            <p>&nbsp;</p>
+            <p>Q: Do you need extra help with admin function during the course like a teacher assistant (TA) position?</p>
+            <p>A: Yes, if you're interested in helping out email us directly.</p>
+            <p>&nbsp;</p>
+            <p>Q: Who is doing video recording? Can I opt-in?</p>
+            <p>A: The video recording for internal purposes and might be used as online training later. You can opt-in to be
+              in the course (or opt-out) during the registration process.</p>
+            <p>&nbsp;</p>
+            <p>Q: When is the next date/class/course out of the six that you've mentioned?</p>
+            <p>A: The exact sale/registration dates will be broadcasted via <a href="http://eepurl.com/U7eyX">our email list</a>.</p>
+            <p>&nbsp;</p>
+            <p>Q: Do you do corporate training?</p>
+            <p>A: Yes! We taught at Cisco, Walmart Labs, Capital One and other compaines. Contact us via the form on this website.</a>.</p>
+            <p>&nbsp;</p>
+          </div>
+
+
+      </header>
+      <!-- End Header -->
+
+    </div>
+  </div>
+  <!-- END PAGE | FAQ -->
+
+
+  <!-- PAGE | CONTACT -->
+  <div class="pages black-bg white page-contact" id="page-contact">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h4 class="line-divider">Say hello!</h4>
+        <h1>Contact</h1>
+        <div class="row">
+          <div class="span8 offset2">
+            <p>
+              We'd love to hear from you!. Feel free to say hi! We'll respond as soon as possible.
+            </p>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Start Article -->
+      <article>
+        <div class="row-fluid">
+          <!-- Contact form -->
+          <div class="span6">
+            <h5>Drop Us A Line</h5>
+            <!-- Do not change the code! -->
+            <a id="foxyform_embed_link_571592" href="http://www.foxyform.com/">foxyform</a>
+            <script type="text/javascript">
+              (function (d, t) {
+                var g = d.createElement(t),
+                  s = d.getElementsByTagName(t)[0];
+                g.src = "http://www.foxyform.com/js.php?id=571592&sec_hash=2222444a10c&width=350px";
+                s.parentNode.insertBefore(g, s);
+              }(document, "script"));
+            </script>
+            <!-- Do not change the code! -->
+
+            <!--          <form>
+                            <input type="text" class="span12" placeholder="Title" required="required">
+                            <input type="email" class="span12" placeholder="Email" required="required">
+                            <textarea rows="10" class="span12" required="required"></textarea>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form> -->
+          </div>
+          <!-- End Contact form -->
+          <!-- Contact information -->
+          <div class="span5 offset1">
+            <h5>Contact Us</h5>
+            <!-- <div class="media">
+                            <div class="social-icons sicon-white pull-left">
+                                <a href="#" class="sicon-phone"><i>Phone</i></a>
+                            </div>
+                            <div class="media-body smallFontBy08">
+                                (+1) 502 964-0393 | (+1) 502 964-0393 (FAX)
+                            </div>
+                        </div> -->
+
+            <div class="media">
+              <div class="social-icons sicon-white pull-left">
+                <a href="#" class="sicon-facebook"><i>Facebook</i></a>
+              </div>
+              <div class="media-body smallFontBy08">
+                <a href="https://www.facebook.com/nodeprogram/">https://www.facebook.com/nodeprogram/</a>
+              </div>
+            </div>
+            <div class="media">
+              <div class="social-icons sicon-white pull-left">
+                <a href="#" class="sicon-twitter"><i>Twitter</i></a>
+              </div>
+              <div class="media-body smallFontBy08">
+                <a href="http://twitter.com/azat_co">@azat_co</a>
+              </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <h5>Get social</h5>
+            <div class="social-icons sicon-white bordered">
+              <a href="https://www.facebook.com/nodeprogram" class="sicon-facebook"><i>Facebook</i></a>
+              <a href="https://twitter.com/nodeprogram" class="sicon-twitter"><i>Twitter</i></a>
+            </div>
+          </div>
+          <!-- End Contact information -->
+        </div>
+      </article>
+      <!-- End Article -->
+
+    </div>
+
+    <!-- Background map image -->
+    <div id="map-image">
+      <img src="assets/images/pages/contact/map_bck.jpg" alt="Treble">
+    </div>
+  </div>
+  <!-- END PAGE | CONTACT -->
+
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  <!-- TWITTER BOOTSTRAP -->
+  <script src="assets/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+        <script src="assets/js/bootstrap/html5shiv.js"></script>
+    <![endif]-->
+
+
+  <!-- PLUGINS -->
+  <script src="assets/js/plugins/jquery.bxslider.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.centralized.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.fixedonlater.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.hashloader.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.mixitup.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.nav.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.parallax-1.1.3.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.responsivevideos.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.scrollTo.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.tweet.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/jquery.tweetCarousel.min.js" type="text/javascript"></script>
+
+
+  <!-- INITIALIZE -->
+  <script src="assets/js/application/application.min.js" type="text/javascript"></script>
+
+  <script>
+              (function (i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+              })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+              ga('create', 'UA-35865546-6', 'auto');
+              ga('send', 'pageview');
+  </script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+  <script>
+      var dest = new Date([2017, 09, 09]);
+      var diff = dest.getTime() / 1000 - new Date().getTime() / 1000;
+      window.clockz = $('#clock').FlipClock(diff, {
+        clockFace: 'DailyCounter',
+        countdown: true
+      });
+
+  </script>
+</body>
+
+</html>
