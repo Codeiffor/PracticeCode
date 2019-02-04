@@ -4,33 +4,35 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-let profile = {
+let profile = [{
     user : 'user1',
     email : 'e@mail.com',
     url : 'u.rl'
-}
+}]
 
 app.get('/profile', (req, res) => {
-    res.send(profile)
+    if(req.query.id)
+        res.send(profile[req.query.id])
+    else
+        res.send(profile)
     console.log('GET complete')
-    console.log(req.ip)
 })
 
 app.post('/profile', (req,res) => {
-    profile = req.body
+    profile.push(req.body)
     res.sendStatus(201)
     console.log('POST complete')
 })
 
-app.put('/profile', (req, res) => {
-    Object.assign(profile, req.body)
-    res.sendStatus(204)
+app.put('/profile/:id', (req, res) => {
+    Object.assign(profile[req.params.id], req.body)
+    res.send('put complete')
     console.log('PUT complete')
 })
 
-app.delete('/profile', (req, res) => {
-    profile = {}
-    res.sendStatus(204)
+app.delete('/profile/:id', (req, res) => {
+    profile.splice(req.params.id,1)
+    res.send('deleted')
     console.log('DELETE complete')
 })
 
