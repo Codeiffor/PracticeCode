@@ -1,10 +1,21 @@
-const mongodb = require("mongodb")
-const mongoClient = mongodb.MongoClient
+const MongoClient = require("mongodb").MongoClient
+const assert = require('assert')
+const methods = require("./methods")
 
-const url = 'mongodb://localhost:27017/hellomongo.db'
+const client = new MongoClient('mongodb://localhost:27017')
 
-mongoClient.connect(url, (error, db) => {
-    if(error) return process.exit(1)
-    console.log('connected to the server successfully\n')
-    db.close()    
+client.connect((error) => {
+    assert.equal(null,error)
+    console.log('connected to the server successfuly\n')
+    
+    const db = client.db('hellomongo')
+    methods.insert(db, () => {
+        methods.update(db, () => {
+            methods.find(db, () => {
+                methods.remove(db, () => {
+                    client.close()
+                })
+            })
+        })
+    })  
 })

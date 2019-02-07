@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.1.13"
+    "assert": "1.4.1",
+    "mongodb": "3.1.13"
   }
 }
