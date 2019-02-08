@@ -10,7 +10,6 @@ const client = new MongoClient('mongodb://localhost:27017')
 const app = express()
 
 app.use(logger('dev'))
-app.use(errorhandler())
 app.use(bodyParser.json())
 
 client.connect((err) => {
@@ -46,5 +45,6 @@ client.connect((err) => {
         })
     })
 
+    app.use(errorhandler())
     app.listen(3000)
 })
