@@ -16,8 +16,8 @@ app.post('/login', (req, res) => {
     if(user.user==req.body.user && user.password == req.body.password){
         jwt.sign( req.body, 'secret key', { expiresIn : '1m' }, (err, token) => {
             if(err)
-                return res.json({message : 'login successfull but jwt error', err})
-            res.json({message : 'login successfull', token })
+                return res.json({message : 'login successful but jwt error', err})
+            res.json({message : 'login successful', token })
         })
     }
     else
